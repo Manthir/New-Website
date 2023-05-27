@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+img{
+    width: 100%;
+}
+.form{
+  place-items: center;
+    font-family:"Roboto";
+    top:25%;
+    left: 70%;
+    position: absolute;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:300px;
+    height:380px;
+    align-items: center;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+   color:white;
+   user-select: none;
+  
+}
+input{
+    top:5%;
+    left: 10%;
+    padding: 6px 16px;
+    outline: none;
+    border-radius: 8px;
+    text-align: center;
+   
+}
+.form:hover{
+    box-shadow:0 0 16px orangered,0 0 16px orangered,0 0 16px orangered,0 0 16px orangered;
+}
+
+ul {
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ ul li { 
+  list-style-type: none;
+  margin-left: 40px;
+  margin-top: 27px;
+  font-size: 14px;
+  padding-left: 10px;
+   
+  }
+  
+ ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+    transition: 0.4s ease-in-out;
+    color: white;
+   
+    text-decoration: none;
+  }
+  .nav{
+    top:0;
+    position: absolute;
+    width:400px;
+    float: left;
+    height: 70px;
+    
+  }
+  .nav2{
+    top:0;
+    position: absolute;
+    left:90%;
+  }
+  .head{
+    position: absolute;
+    top:0;
+    left:5%;
+    color:white;
+    user-select: none;
+    border: none;
+    background-color: none; 
+    font-size: 280%;
+    color: orangered;
+   
+  }
+  .head img{
+    border-radius: 50%;
+  }
+  
+  
+  li a:hover {
+  border-bottom:2px solid white;
+  color:orangered;
+}
+  li.a{
+    left:0;
+    top:0;
+  }
+  .main{
+    position: absolute;
+  }
+button{
+    padding: 6px 16px;
+    border-radius: 6px;
+    color: white;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.login{
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+
+.btn1{
+  background-color: orangered;
+  padding: 8px 18px;
+  width: 35%;
+
+}
+button:hover{
+  font-size: 100%;
+}
+.btn2{
+  background-color: orangered;
+  padding: 8px 18px;
+}
+.main{
+  left:5%;
+
+}
+span{
+  color:orangered;
+}
+.co1{
+  color:white;
+  font-size: 250%;
+  user-select: none;
+}
+.dev{
+  color:orangered;
+  font-size: 400%;
+  user-select: none;
+}
+p{
+  color: white;
+}
+.log{
+  text-align: center;
+}
+.search{
+  position: absolute;
+  top:0;
+  right:8%;
+ 
+}
+.in{
+ background-color: white;
+    color:orangered;
+    padding: 14px 16px;
+  top: 0;
+}
+.fa fa-instagram{
+  font-size: 200%;
+  width: 30%;
+}
+.do{
+  text-align: center;
+}
+.si{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+.btn2{
+  width: 70%;
+  
+}
+.btn4{
+  background-color: orangered;
+  padding: 14px 16px;
+  top: 0;
+}
+@media screen and (max-width: 1000px) {
+  *{
+    width: 100%; 
+  }
+}
+input:focus{
+  border-color: aqua;
+}
+input:valid{
+  border-color:green;
+}
+input:invalid{
+  border-color: red;
+  animation: shake 0.5s infinite;
+}
+@keyframes shake {
+    0%{transform: translateX(3px);}
+    50%{transform: translateX(-3px);}
+    100%{transform: translateX(3px);}
+    
+}
+.para{
+  margin-top: 5px;
+  row-gap: 5%;
+  user-select: none;
+}
+
+
